@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("UI.svg");
+  background-size: cover;
+  color: #fff;
+}
+
+.container {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  max-width: 899px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.cont{
+  display: flex;
+  background-color: #252525;
+  opacity: 70%;
+  border-radius: 7px;
+}
+
+.column{
+  padding-left: 20px;
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+
+.vids{
+  display: flex;
+  align-items: center;
+}
+
+.videos{
+  margin-top: 50px;
+}
+
+.desc{
+  margin-left: 40px;
+  display: flex;
+  text-align: justify;
+}
+
+.col h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+
+.box{
+  width: 702.90;
+  height: 291.60;
+  left: 0;
+  top: 0;
+  position: 'absolute';
+  background:#797979;
+  box-shadow: #03001B;
+  border-radius: 12.60;
+  backdrop-filter: 'blur(16px)';
+}
+
+header {
+  padding: 10px 20px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input::placeholder{
+  color: rgb(145, 145, 145);
+  outline: none;
+}
+
+.search-box input {
+  background-color: transparent;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: white;
+  width: 300px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 28px;
+}
+
+.about-us button {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #797979;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.product-image img {
+  width: 500px;
+  height: auto;
+  border-radius: 14px;
+}
+
+.product {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.product-description {
+  flex-grow: 1;
+  font-size: 17px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
